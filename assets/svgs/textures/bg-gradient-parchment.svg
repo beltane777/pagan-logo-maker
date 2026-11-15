@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<title>Parchment</title>
+<defs>
+  <linearGradient id="wash" gradientUnits="userSpaceOnUse" x1="192" y1="17.92" x2="64" y2="238.08">
+    <stop offset="0" stop-color="#f4e9cd"/><stop offset="0.55" stop-color="#e6d5ae"/><stop offset="1" stop-color="#c9b286"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.28" r="0.72">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.1"/>
+    <stop offset="1" stop-color="#000000" stop-opacity="0.34"/>
+  </radialGradient>
+</defs>
+<rect width="256" height="256" fill="url(#wash)"/>
+<rect width="256" height="256" fill="url(#glow)"/>
+</svg>

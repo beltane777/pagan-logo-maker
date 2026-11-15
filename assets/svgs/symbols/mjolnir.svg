@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<title>Pagan Logo Maker asset</title>
+<g fill="none" stroke="#d4af4f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M62 70 L194 70 L206 122 L50 122Z"/>
+<path d="M50 122 L206 122"/>
+<path d="M116 122 L140 122 L142 200 L114 200"/>
+<path d="M116 132 L140 139"/>
+<path d="M116.4 146 L139.6 153"/>
+<path d="M116.8 160 L139.2 167"/>
+<path d="M117.2 174 L138.8 181"/>
+<path d="M117.6 188 L138.4 195"/>
+<path d="M112 200C112 214 118 222 128 222C138 222 144 214 144 200Z"/>
+<circle cx="128" cy="98" r="15"/>
+<path d="M128 85 L135.64 108.52 L115.64 93.98 L140.36 93.98 L120.36 108.52Z"/>
+</g>
+</svg>

@@ -1,0 +1,95 @@
+PAGAN LOGO MAKER
+Copyright (c) 2026 Pagan Logo Maker
+
+Thank you for installing Pagan Logo Maker — an offline studio for sigils,
+seals, runic wordmarks and esoteric brand marks.
+
+Please read this agreement before completing the installation. By installing
+or using the software you accept its terms.
+
+
+1. LICENCE GRANT
+────────────────
+You are granted a non-exclusive, perpetual licence to install and use Pagan
+Logo Maker on any number of computers that you personally own or operate,
+for both personal and commercial work.
+
+Artwork you create with this application is entirely yours. Logos, seals and
+designs exported from Pagan Logo Maker carry no attribution requirement and
+no royalty obligation, and may be used commercially, modified, and
+redistributed without restriction.
+
+
+2. BUNDLED ARTWORK
+──────────────────
+The symbol, frame and texture library that ships inside the application
+(the contents of /assets/svgs) is released into the public domain under
+CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/).
+
+You may copy, modify, distribute and use these vector assets for any
+purpose without asking permission. They are provided "as is", without
+warranty of any kind.
+
+The library is generated procedurally by this project's own build scripts.
+No third-party artwork, icon sets or stock illustration is included.
+
+
+3. BUNDLED FONTS
+────────────────
+Fonts are embedded locally so the application works with no network
+connection. Each font remains the property of its author and is distributed
+under the SIL Open Font License 1.1
+(https://scripts.sil.org/OFL), which permits embedding and redistribution
+inside software, including commercial software.
+
+The SIL OFL requires that the fonts be distributed under the same licence,
+not renamed, and not sold on their own. This application complies with
+those terms. Font names remain the trademarks of their respective owners.
+
+
+4. OPEN SOURCE COMPONENTS
+─────────────────────────
+Pagan Logo Maker is built with open source software, including Electron,
+React, Fabric.js, Vite, Tailwind CSS and sharp. Each component is used under
+its own licence; the full texts are available from the respective projects.
+Nothing in this agreement restricts your rights under those licences.
+
+
+5. RESTRICTIONS
+───────────────
+You may not:
+  • redistribute, rent, lease or sublicense this application itself
+    (as opposed to artwork you create with it);
+  • remove or alter the copyright notices within the application;
+  • use the Pagan Logo Maker name or its icon to endorse a derivative
+    product without written permission.
+
+
+6. NO WARRANTY
+──────────────
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Always keep your own backups of project files. Save early, save often.
+
+
+7. PRIVACY
+──────────
+Pagan Logo Maker performs no telemetry, analytics or usage reporting. The
+application does not contact any server. Every asset, font and template is
+bundled locally, and your projects are written only to the locations you
+choose on your own disk.
+
+
+8. ACCEPTANCE
+─────────────
+Clicking "I Agree" (or continuing the installation) confirms that you have
+read and accept these terms. If you do not accept them, cancel the
+installation and delete the installer.
+
+Questions or bug reports: see the project repository.

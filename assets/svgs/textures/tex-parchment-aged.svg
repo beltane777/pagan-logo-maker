@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<title>Aged Parchment</title>
+<defs>
+  <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="4" seed="7" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0" result="mono"/>
+    <feComponentTransfer in="mono">
+      <feFuncA type="linear" slope="0.26"/>
+    </feComponentTransfer>
+  </filter>
+  <linearGradient id="veil" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f6ecd2"/><stop offset="0.45" stop-color="#e2ceA4"/><stop offset="1" stop-color="#b99e6f"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+    <stop offset="0.35" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.42"/>
+  </radialGradient>
+  
+</defs>
+<rect width="256" height="256" fill="#d8c49a"/>
+<rect width="256" height="256" fill="url(#veil)" style="mix-blend-mode:overlay"/>
+<rect width="256" height="256" filter="url(#grain)"/>
+<rect width="256" height="256" fill="url(#vig)"/>
+</svg>
