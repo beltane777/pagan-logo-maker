@@ -1,0 +1,321 @@
+/**
+ * @file src/renderer/styles/index.css
+ * @description Global design system for the studio shell: dark "void" chrome,
+ * antique-gold accents, parchment highlights. Tailwind handles utility layout;
+ * this file owns the primitives (scrollbars, sliders, canvas cursors, fonts).
+ */
+
+/* Vendored, offline typefaces — no network fetch at runtime. */
+@import '@fontsource/cinzel-decorative/400.css';
+@import '@fontsource/cinzel-decorative/700.css';
+@import '@fontsource/cormorant-garamond/400.css';
+@import '@fontsource/cormorant-garamond/600.css';
+@import '@fontsource/cormorant-garamond/400-italic.css';
+@import '@fontsource/uncial-antiqua/400.css';
+@import '@fontsource/im-fell-english/400.css';
+@import '@fontsource/im-fell-english/400-italic.css';
+@import '@fontsource/metamorphous/400.css';
+@import '@fontsource/almendra-sc/400.css';
+@import '@fontsource/medievalsharp/400.css';
+@import '@fontsource/noto-sans-runic/400.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+
+    /* Chrome */
+    --void-900: #08070a;
+    --void-800: #111017;
+    --void-700: #1c1a24;
+    --void-600: #25222e;
+    --line: rgba(212, 175, 79, 0.14);
+    --line-strong: rgba(212, 175, 79, 0.3);
+
+    /* Accents */
+    --gold: #d4af4f;
+    --gold-soft: #e3c878;
+    --parchment: #efe3c6;
+
+    /* Selection */
+    --select: #d4af4f;
+    --select-dim: rgba(212, 175, 79, 0.22);
+  }
+
+  * {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  input,
+  textarea {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  body {
+    @apply bg-void-850 text-neutral-300 font-ui antialiased;
+    font-size: 13px;
+    /* Subtle woven texture behind the whole app. */
+    background-image:
+      radial-gradient(1200px 600px at 50% -10%, rgba(212, 175, 79, 0.06), transparent 70%),
+      radial-gradient(800px 400px at 110% 110%, rgba(140, 43, 50, 0.05), transparent 70%);
+  }
+
+  ::selection {
+    background: var(--select-dim);
+    color: var(--parchment);
+  }
+
+  /* Thin brass scrollbars */
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 79, 0.18);
+    border-radius: 99px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(212, 175, 79, 0.34);
+    background-clip: content-box;
+  }
+
+  /* Focus rings stay on-brand */
+  :focus-visible {
+    outline: 1px solid var(--gold);
+    outline-offset: 1px;
+  }
+}
+
+@layer components {
+  /* ── Panels ─────────────────────────────────────────────────────────── */
+  .panel {
+    @apply bg-void-800/80 backdrop-blur-sm;
+  }
+
+  .panel-header {
+    @apply flex items-center justify-between gap-2 px-3 h-9 shrink-0
+           border-b border-gold-400/10 text-[10px] uppercase tracking-[0.18em]
+           text-gold-300/70 font-medium;
+  }
+
+  .panel-scroll {
+    @apply overflow-y-auto overscroll-contain h-full;
+  }
+
+  /* ── Buttons ────────────────────────────────────────────────────────── */
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-md px-2.5 h-7
+           text-[11px] font-medium text-neutral-300 bg-void-700/70
+           border border-white/[0.06] transition-all duration-150
+           hover:bg-void-600 hover:text-parchment hover:border-gold-400/25
+           active:translate-y-[0.5px] active:bg-void-700
+           disabled:opacity-35 disabled:pointer-events-none;
+  }
+
+  .btn-gold {
+    @apply text-void-900 bg-gradient-to-b from-gold-200 to-gold-400
+           border border-gold-600/40 font-semibold
+           hover:from-gold-50 hover:to-gold-300 hover:text-void-900
+           shadow-[0_1px_0_rgba(255,255,255,0.25)_inset,0_2px_10px_-4px_rgba(212,175,79,0.6)];
+  }
+
+  .btn-ghost {
+    @apply bg-transparent border-transparent hover:bg-white/[0.05];
+  }
+
+  .btn-icon {
+    @apply w-7 h-7 px-0 rounded-md text-neutral-400 hover:text-gold-300;
+  }
+
+  .btn-active {
+    @apply text-gold-200 bg-gold-400/10 border-gold-400/30;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2 py-[3px] text-[10px]
+           border border-gold-400/20 text-gold-300/80 bg-gold-400/[0.06];
+  }
+
+  /* ── Inputs ─────────────────────────────────────────────────────────── */
+  .field {
+    @apply w-full h-7 rounded-md bg-void-900/70 border border-white/[0.07]
+           px-2 text-[11px] text-neutral-200 placeholder:text-neutral-600
+           transition-colors focus:border-gold-400/40 focus:bg-void-900;
+  }
+
+  .field-label {
+    @apply block text-[10px] uppercase tracking-[0.14em] text-neutral-500 mb-1;
+  }
+
+  .select {
+    @apply field appearance-none pr-6 cursor-pointer;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23a1a1aa' stroke-width='1.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+  }
+
+  .select option {
+    background-color: #16151d;
+    color: #e5e5e5;
+  }
+
+  /* ── Sliders ────────────────────────────────────────────────────────── */
+  .slider {
+    @apply w-full h-4 appearance-none bg-transparent cursor-pointer;
+    --pct: 50%;
+  }
+  .slider::-webkit-slider-runnable-track {
+    height: 3px;
+    border-radius: 99px;
+    background: linear-gradient(
+      to right,
+      var(--gold) 0%,
+      var(--gold) var(--pct),
+      rgba(255, 255, 255, 0.09) var(--pct),
+      rgba(255, 255, 255, 0.09) 100%
+    );
+  }
+  .slider::-webkit-slider-thumb {
+    @apply appearance-none rounded-full;
+    width: 11px;
+    height: 11px;
+    margin-top: -4px;
+    background: linear-gradient(180deg, #f4e7bf, #c9a548);
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    transition: transform 120ms ease;
+  }
+  .slider:hover::-webkit-slider-thumb {
+    transform: scale(1.15);
+  }
+  .slider:active::-webkit-slider-thumb {
+    transform: scale(1.05);
+  }
+  .slider:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  /* ── Accordion ──────────────────────────────────────────────────────── */
+  .acc-trigger {
+    @apply w-full flex items-center gap-2 px-3 py-2 text-left
+           text-[11px] font-semibold uppercase tracking-[0.14em] text-gold-300/80
+           hover:bg-gold-400/[0.05] transition-colors;
+  }
+
+  /* ── Asset tiles ────────────────────────────────────────────────────── */
+  .asset-tile {
+    @apply relative flex items-center justify-center rounded-lg overflow-hidden
+           bg-void-900/60 border border-white/[0.05] cursor-grab
+           transition-all duration-150
+           hover:border-gold-400/45 hover:bg-void-800 hover:shadow-glow;
+  }
+  .asset-tile:active {
+    cursor: grabbing;
+  }
+  .asset-tile img,
+  .asset-tile svg {
+    @apply w-full h-full p-2.5 pointer-events-none;
+  }
+
+  /* ── Layer rows ─────────────────────────────────────────────────────── */
+  .layer-row {
+    @apply flex items-center gap-1.5 pl-1.5 pr-1 h-8 rounded-md text-[11px]
+           border border-transparent cursor-pointer transition-colors;
+  }
+  .layer-row:hover {
+    @apply bg-white/[0.04];
+  }
+  .layer-row[data-selected='true'] {
+    @apply bg-gold-400/[0.12] border-gold-400/30 text-parchment;
+  }
+  .layer-row[data-dragging='true'] {
+    @apply opacity-40;
+  }
+  .layer-row[data-drop='true'] {
+    @apply border-t-gold-400 border-t-2;
+  }
+
+  /* ── Canvas workspace ───────────────────────────────────────────────── */
+  .canvas-shell {
+    background-color: #0a0910;
+    background-image:
+      radial-gradient(circle at 50% 40%, rgba(212, 175, 79, 0.045), transparent 60%),
+      linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    background-size: 100% 100%, 24px 24px, 24px 24px;
+  }
+
+  /* Fabric wraps the canvas in two absolutely-positioned layers. */
+  .canvas-stage .canvas-container {
+    box-shadow:
+      0 0 0 1px rgba(212, 175, 79, 0.22),
+      0 24px 70px -18px rgba(0, 0, 0, 0.95),
+      0 0 90px -40px rgba(212, 175, 79, 0.35);
+  }
+
+  .canvas-stage.is-dragover .canvas-container {
+    box-shadow:
+      0 0 0 2px rgba(212, 175, 79, 0.8),
+      0 0 60px -12px rgba(212, 175, 79, 0.6);
+  }
+
+  /* ── Modal ──────────────────────────────────────────────────────────── */
+  .modal-backdrop {
+    @apply fixed inset-0 z-50 flex items-center justify-center p-6
+           bg-void-900/80 backdrop-blur-[3px] animate-fade-in;
+  }
+  .modal-card {
+    @apply relative w-full rounded-xl border border-gold-400/25 overflow-hidden
+           bg-gradient-to-b from-void-750 to-void-850 shadow-[0_40px_120px_-30px_rgba(0,0,0,1)];
+  }
+
+  /* ── Misc ───────────────────────────────────────────────────────────── */
+  .divider {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold-400/20 to-transparent;
+  }
+
+  .kbd {
+    @apply inline-flex items-center justify-center min-w-[18px] h-[18px] px-1
+           rounded border border-white/10 bg-void-900 text-[10px] font-mono text-neutral-400;
+  }
+
+  .scroll-fade {
+    mask-image: linear-gradient(to bottom, transparent 0, black 8px, black calc(100% - 8px), transparent 100%);
+  }
+
+  .no-drag {
+    -webkit-app-region: no-drag;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+}

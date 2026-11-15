@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<title>Moss Wash</title>
+<defs>
+  <linearGradient id="wash" gradientUnits="userSpaceOnUse" x1="217.6" y1="38.4" x2="38.4" y2="217.6">
+    <stop offset="0" stop-color="#1b2a18"/><stop offset="0.5" stop-color="#0d150c"/><stop offset="1" stop-color="#050805"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.28" r="0.72">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.1"/>
+    <stop offset="1" stop-color="#000000" stop-opacity="0.34"/>
+  </radialGradient>
+</defs>
+<rect width="256" height="256" fill="url(#wash)"/>
+<rect width="256" height="256" fill="url(#glow)"/>
+</svg>

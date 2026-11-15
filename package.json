@@ -1,0 +1,157 @@
+{
+  "name": "pagan-logo-maker",
+  "productName": "Pagan Logo Maker",
+  "version": "1.0.0",
+  "description": "A professional offline desktop studio for crafting pagan, esoteric and occult logo marks.",
+  "author": {
+    "name": "Pagan Logo Maker",
+    "email": "studio@paganlogomaker.app"
+  },
+  "license": "MIT",
+  "private": true,
+  "main": "src/main/main.js",
+  "scripts": {
+    "dev": "concurrently -k -n VITE,ELECTRON -c cyan,magenta \"npm:dev:renderer\" \"npm:dev:electron\"",
+    "dev:renderer": "vite",
+    "dev:electron": "wait-on tcp:5173 && cross-env NODE_ENV=development electron .",
+    "preview": "vite preview",
+    "start": "electron .",
+    "icons": "node scripts/generate-icons.mjs",
+    "pack": "npm run icons && electron-builder --dir",
+    "build": "vite build",
+    "dist": "npm run icons && npm run build && electron-builder",
+    "dist:win": "npm run dist -- --win",
+    "dist:mac": "npm run dist -- --mac",
+    "dist:linux": "npm run dist -- --linux",
+    "test:build": "node test/build.mjs",
+    "test": "node test/run.mjs",
+    "test:engine": "node test/run.mjs --engine-only",
+    "test:ui": "node test/run.mjs --ui-only",
+    "contact-sheet": "node scripts/contact-sheet.mjs"
+  },
+  "dependencies": {
+    "@fontsource/almendra-sc": "^5.2.5",
+    "@fontsource/cinzel-decorative": "^5.2.5",
+    "@fontsource/cormorant-garamond": "^5.2.5",
+    "@fontsource/im-fell-english": "^5.2.5",
+    "@fontsource/medievalsharp": "^5.2.5",
+    "@fontsource/metamorphous": "^5.2.5",
+    "@fontsource/noto-sans-runic": "^5.2.5",
+    "@fontsource/uncial-antiqua": "^5.2.5",
+    "fabric": "^6.9.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.7"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^1.1.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^10.0.7",
+    "cross-env": "^10.1.0",
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8",
+    "jsdom": "^31.0.1",
+    "png-to-ico": "^3.0.2",
+    "postcss": "^8.4.49",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.19",
+    "vite": "^5.4.21",
+    "wait-on": "^9.5.1"
+  },
+  "build": {
+    "appId": "app.paganlogomaker.studio",
+    "productName": "Pagan Logo Maker",
+    "copyright": "Copyright \u00a9 2026 Pagan Logo Maker",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "src/main/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "extraMetadata": {
+      "main": "src/main/main.js"
+    },
+    "asar": true,
+    "compression": "maximum",
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "artifactName": "${productName}-${version}-${arch}-Setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Pagan Logo Maker",
+      "license": "build/license.txt"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ],
+      "category": "public.app-category.graphics-design",
+      "icon": "build/icon.icns",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "artifactName": "${productName}-${version}-${arch}.${ext}"
+    },
+    "dmg": {
+      "title": "Pagan Logo Maker ${version}",
+      "contents": [
+        {
+          "x": 130,
+          "y": 220,
+          "type": "file"
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "build/icons",
+      "category": "Graphics",
+      "synopsis": "Offline pagan and esoteric logo design studio"
+    }
+  }
+}

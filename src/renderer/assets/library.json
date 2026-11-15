@@ -1,0 +1,1239 @@
+{
+  "generatedAt": "2026-11-15T06:03:20.357Z",
+  "license": "CC0-1.0 — generated in-house for Pagan Logo Maker, free for commercial use.",
+  "viewBox": [
+    256,
+    256
+  ],
+  "groups": [
+    {
+      "id": "symbols",
+      "label": "Pagan & Esoteric Symbols",
+      "blurb": "Runes, lunar marks, sacred geometry and alchemical glyphs.",
+      "items": [
+        {
+          "id": "rune-fehu",
+          "name": "Fehu",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-fehu.svg"
+        },
+        {
+          "id": "rune-uruz",
+          "name": "Uruz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-uruz.svg"
+        },
+        {
+          "id": "rune-thursaz",
+          "name": "Thurisaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-thursaz.svg"
+        },
+        {
+          "id": "rune-ansuz",
+          "name": "Ansuz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-ansuz.svg"
+        },
+        {
+          "id": "rune-raido",
+          "name": "Raido",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-raido.svg"
+        },
+        {
+          "id": "rune-kenaz",
+          "name": "Kenaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-kenaz.svg"
+        },
+        {
+          "id": "rune-gebo",
+          "name": "Gebo",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-gebo.svg"
+        },
+        {
+          "id": "rune-wunjo",
+          "name": "Wunjo",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-wunjo.svg"
+        },
+        {
+          "id": "rune-hagalaz",
+          "name": "Hagalaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-hagalaz.svg"
+        },
+        {
+          "id": "rune-nauthiz",
+          "name": "Nauthiz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-nauthiz.svg"
+        },
+        {
+          "id": "rune-isa",
+          "name": "Isa",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-isa.svg"
+        },
+        {
+          "id": "rune-jera",
+          "name": "Jera",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-jera.svg"
+        },
+        {
+          "id": "rune-eihwaz",
+          "name": "Eihwaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-eihwaz.svg"
+        },
+        {
+          "id": "rune-perthro",
+          "name": "Perthro",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-perthro.svg"
+        },
+        {
+          "id": "rune-algiz",
+          "name": "Algiz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-algiz.svg"
+        },
+        {
+          "id": "rune-sowilo",
+          "name": "Sowilo",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-sowilo.svg"
+        },
+        {
+          "id": "rune-tiwaz",
+          "name": "Tiwaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-tiwaz.svg"
+        },
+        {
+          "id": "rune-berkano",
+          "name": "Berkano",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-berkano.svg"
+        },
+        {
+          "id": "rune-ehwaz",
+          "name": "Ehwaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-ehwaz.svg"
+        },
+        {
+          "id": "rune-mannaz",
+          "name": "Mannaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-mannaz.svg"
+        },
+        {
+          "id": "rune-laguz",
+          "name": "Laguz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-laguz.svg"
+        },
+        {
+          "id": "rune-ingwaz",
+          "name": "Ingwaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-ingwaz.svg"
+        },
+        {
+          "id": "rune-dagaz",
+          "name": "Dagaz",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-dagaz.svg"
+        },
+        {
+          "id": "rune-othala",
+          "name": "Othala",
+          "tags": [
+            "rune",
+            "elder futhark",
+            "stave",
+            "alphabet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/rune-othala.svg"
+        },
+        {
+          "id": "triple-moon",
+          "name": "Triple Moon",
+          "tags": [
+            "goddess",
+            "maiden mother crone",
+            "lunar",
+            "wicca"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/triple-moon.svg"
+        },
+        {
+          "id": "triple-moon-plain",
+          "name": "Triple Moon (Open)",
+          "tags": [
+            "goddess",
+            "lunar",
+            "wicca"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/triple-moon-plain.svg"
+        },
+        {
+          "id": "pentacle",
+          "name": "Pentacle",
+          "tags": [
+            "pentagram",
+            "five point star",
+            "wicca",
+            "protection"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/pentacle.svg"
+        },
+        {
+          "id": "pentagram",
+          "name": "Pentagram",
+          "tags": [
+            "five point star",
+            "venus",
+            "occult"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/pentagram.svg"
+        },
+        {
+          "id": "heptagram",
+          "name": "Heptagram",
+          "tags": [
+            "seven point star",
+            "elven star",
+            "faerie"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/heptagram.svg"
+        },
+        {
+          "id": "enneagram",
+          "name": "Nonagram",
+          "tags": [
+            "nine point star",
+            "nine",
+            "esoteric"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/enneagram.svg"
+        },
+        {
+          "id": "hexagram",
+          "name": "Hexagram",
+          "tags": [
+            "six point star",
+            "solomon",
+            "alchemy"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/hexagram.svg"
+        },
+        {
+          "id": "tree-of-life",
+          "name": "Tree of Life",
+          "tags": [
+            "kabbalah",
+            "sephiroth",
+            "world tree"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/tree-of-life.svg"
+        },
+        {
+          "id": "yggdrasil",
+          "name": "Yggdrasil",
+          "tags": [
+            "world tree",
+            "norse",
+            "nidhogg",
+            "roots"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/yggdrasil.svg"
+        },
+        {
+          "id": "triquetra",
+          "name": "Triquetra",
+          "tags": [
+            "celtic",
+            "trinity knot",
+            "three"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/triquetra.svg"
+        },
+        {
+          "id": "triquetra-circled",
+          "name": "Triquetra Bound",
+          "tags": [
+            "celtic",
+            "trinity knot",
+            "circle"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/triquetra-circled.svg"
+        },
+        {
+          "id": "triskele",
+          "name": "Triskele",
+          "tags": [
+            "celtic",
+            "threefold",
+            "spiral",
+            "sea"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/triskele.svg"
+        },
+        {
+          "id": "spiral-goddess",
+          "name": "Spiral Goddess",
+          "tags": [
+            "goddess",
+            "womb",
+            "spiral",
+            "feminine"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/spiral-goddess.svg"
+        },
+        {
+          "id": "horned-god",
+          "name": "Horned God",
+          "tags": [
+            "cernunnos",
+            "pan",
+            "masculine",
+            "wild"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/horned-god.svg"
+        },
+        {
+          "id": "valknut",
+          "name": "Valknut",
+          "tags": [
+            "odin",
+            "norse",
+            "knot",
+            "warrior"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/valknut.svg"
+        },
+        {
+          "id": "vegvisir",
+          "name": "Vegvisir",
+          "tags": [
+            "norse",
+            "wayfinder",
+            "compass",
+            "protection"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/vegvisir.svg"
+        },
+        {
+          "id": "mjolnir",
+          "name": "Mjölnir",
+          "tags": [
+            "thor",
+            "hammer",
+            "norse"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/mjolnir.svg"
+        },
+        {
+          "id": "sunwheel",
+          "name": "Sunwheel",
+          "tags": [
+            "sun cross",
+            "solstice",
+            "wheel of the year"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/sunwheel.svg"
+        },
+        {
+          "id": "wheel-of-year",
+          "name": "Wheel of the Year",
+          "tags": [
+            "sabbat",
+            "eightfold",
+            "calendar"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/wheel-of-year.svg"
+        },
+        {
+          "id": "moon-phases",
+          "name": "Moon Phases",
+          "tags": [
+            "lunar",
+            "cycle",
+            "esbat"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/moon-phases.svg"
+        },
+        {
+          "id": "ankh",
+          "name": "Ankh",
+          "tags": [
+            "life",
+            "kemet",
+            "egypt"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/ankh.svg"
+        },
+        {
+          "id": "eye-of-horus",
+          "name": "Eye of Horus",
+          "tags": [
+            "wedjat",
+            "protection",
+            "kemet"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/eye-of-horus.svg"
+        },
+        {
+          "id": "athame",
+          "name": "Athame",
+          "tags": [
+            "ritual knife",
+            "tool",
+            "air"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/athame.svg"
+        },
+        {
+          "id": "chalice",
+          "name": "Chalice",
+          "tags": [
+            "water",
+            "grail",
+            "coven"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/chalice.svg"
+        },
+        {
+          "id": "cauldron",
+          "name": "Cauldron",
+          "tags": [
+            "rebirth",
+            "cerridwen",
+            "tool"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/cauldron.svg"
+        },
+        {
+          "id": "besom",
+          "name": "Besom",
+          "tags": [
+            "broom",
+            "cleansing",
+            "tool"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/besom.svg"
+        },
+        {
+          "id": "wand",
+          "name": "Wand",
+          "tags": [
+            "ritual",
+            "fire",
+            "tool"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/wand.svg"
+        },
+        {
+          "id": "crescent-and-star",
+          "name": "Crescent & Star",
+          "tags": [
+            "moon",
+            "night",
+            "lunar"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/crescent-and-star.svg"
+        },
+        {
+          "id": "black-sun",
+          "name": "Black Sun",
+          "tags": [
+            "sonnenrad",
+            "norse",
+            "esoteric"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/black-sun.svg"
+        },
+        {
+          "id": "ouroboros",
+          "name": "Ouroboros",
+          "tags": [
+            "serpent",
+            "cycle",
+            "infinity"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/ouroboros.svg"
+        },
+        {
+          "id": "solar-cross",
+          "name": "Solar Cross",
+          "tags": [
+            "sun",
+            "equinox",
+            "quadrant"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/solar-cross.svg"
+        },
+        {
+          "id": "elemental-pentagram",
+          "name": "Elemental Pentagram",
+          "tags": [
+            "five elements",
+            "invocation"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/elemental-pentagram.svg"
+        },
+        {
+          "id": "alch-fire",
+          "name": "Alchemical Fire",
+          "tags": [
+            "element",
+            "salamander",
+            "triangle"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-fire.svg"
+        },
+        {
+          "id": "alch-water",
+          "name": "Alchemical Water",
+          "tags": [
+            "element",
+            "undine"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-water.svg"
+        },
+        {
+          "id": "alch-air",
+          "name": "Alchemical Air",
+          "tags": [
+            "element",
+            "sylph"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-air.svg"
+        },
+        {
+          "id": "alch-earth",
+          "name": "Alchemical Earth",
+          "tags": [
+            "element",
+            "gnome"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-earth.svg"
+        },
+        {
+          "id": "alch-sulfur",
+          "name": "Alchemical Sulfur",
+          "tags": [
+            "soul",
+            "brimstone",
+            "solve"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-sulfur.svg"
+        },
+        {
+          "id": "alch-mercury",
+          "name": "Alchemical Mercury",
+          "tags": [
+            "spirit",
+            "quicksilver",
+            "hermes"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-mercury.svg"
+        },
+        {
+          "id": "alch-salt",
+          "name": "Alchemical Salt",
+          "tags": [
+            "body",
+            "crystallisation"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-salt.svg"
+        },
+        {
+          "id": "alch-gold",
+          "name": "Alchemical Gold",
+          "tags": [
+            "sol",
+            "sun metal",
+            "perfection"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-gold.svg"
+        },
+        {
+          "id": "alch-silver",
+          "name": "Alchemical Silver",
+          "tags": [
+            "luna",
+            "moon metal"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/alch-silver.svg"
+        },
+        {
+          "id": "philosophers-stone",
+          "name": "Philosopher’s Stone",
+          "tags": [
+            "magnum opus",
+            "rubedo"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/philosophers-stone.svg"
+        },
+        {
+          "id": "squared-circle",
+          "name": "Squaring the Circle",
+          "tags": [
+            "talisman",
+            "alchemy"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/squared-circle.svg"
+        },
+        {
+          "id": "planetary-seal",
+          "name": "Planetary Seal",
+          "tags": [
+            "orrery",
+            "astrology",
+            "spheres"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/planetary-seal.svg"
+        },
+        {
+          "id": "sigil-star",
+          "name": "Sigil Star",
+          "tags": [
+            "chaos magic",
+            "intention",
+            "will"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/sigil-star.svg"
+        },
+        {
+          "id": "crescent-moon",
+          "name": "Crescent Moon",
+          "tags": [
+            "lunar",
+            "moon"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/crescent-moon.svg"
+        },
+        {
+          "id": "moon-tree",
+          "name": "Moon Tree",
+          "tags": [
+            "lunar",
+            "nature",
+            "world tree"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/moon-tree.svg"
+        },
+        {
+          "id": "crescent-stars",
+          "name": "Crescent & Stars",
+          "tags": [
+            "lunar",
+            "night",
+            "sky"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/crescent-stars.svg"
+        },
+        {
+          "id": "eightfold-star",
+          "name": "Eightfold Star",
+          "tags": [
+            "chaos star",
+            "eight"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/eightfold-star.svg"
+        },
+        {
+          "id": "compass-rose",
+          "name": "Compass Rose",
+          "tags": [
+            "wayfinding",
+            "navigation"
+          ],
+          "category": "symbols",
+          "path": "assets/svgs/symbols/compass-rose.svg"
+        }
+      ]
+    },
+    {
+      "id": "frames",
+      "label": "Frames & Shields",
+      "blurb": "Borders, crests, banners and sunwheel plates.",
+      "items": [
+        {
+          "id": "frame-circle-thin",
+          "name": "Circle Border",
+          "tags": [
+            "round",
+            "minimal",
+            "ring"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-circle-thin.svg"
+        },
+        {
+          "id": "frame-circle-double",
+          "name": "Double Ring",
+          "tags": [
+            "round",
+            "ring",
+            "classic"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-circle-double.svg"
+        },
+        {
+          "id": "frame-circle-rope",
+          "name": "Rope Ring",
+          "tags": [
+            "round",
+            "braid",
+            "textured"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-circle-rope.svg"
+        },
+        {
+          "id": "frame-circle-ornate",
+          "name": "Ornate Circle",
+          "tags": [
+            "round",
+            "filigree",
+            "elegant"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-circle-ornate.svg"
+        },
+        {
+          "id": "frame-shield-crest",
+          "name": "Crest Shield",
+          "tags": [
+            "heraldic",
+            "shield",
+            "badge"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-shield-crest.svg"
+        },
+        {
+          "id": "frame-shield-pointed",
+          "name": "Pointed Shield",
+          "tags": [
+            "heraldic",
+            "shield"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-shield-pointed.svg"
+        },
+        {
+          "id": "frame-heater-shield",
+          "name": "Heater Shield",
+          "tags": [
+            "heraldic",
+            "shield",
+            "knight"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-heater-shield.svg"
+        },
+        {
+          "id": "frame-banner",
+          "name": "Ornate Banner",
+          "tags": [
+            "ribbon",
+            "scroll",
+            "label"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-banner.svg"
+        },
+        {
+          "id": "frame-scroll",
+          "name": "Scroll Cartouche",
+          "tags": [
+            "ribbon",
+            "parchment",
+            "title"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-scroll.svg"
+        },
+        {
+          "id": "frame-laurel",
+          "name": "Laurel Wreath",
+          "tags": [
+            "wreath",
+            "botanical",
+            "victory"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-laurel.svg"
+        },
+        {
+          "id": "frame-arch",
+          "name": "Arch Frame",
+          "tags": [
+            "gothic",
+            "cathedral",
+            "portal"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-arch.svg"
+        },
+        {
+          "id": "frame-hexagon",
+          "name": "Hexagon Plate",
+          "tags": [
+            "hex",
+            "geometric",
+            "badge"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-hexagon.svg"
+        },
+        {
+          "id": "frame-octagon",
+          "name": "Octagon Plate",
+          "tags": [
+            "geometric",
+            "badge"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-octagon.svg"
+        },
+        {
+          "id": "frame-shield-runes",
+          "name": "Rune Shield",
+          "tags": [
+            "heraldic",
+            "runic",
+            "norse"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-shield-runes.svg"
+        },
+        {
+          "id": "frame-mandorla",
+          "name": "Mandorla",
+          "tags": [
+            "almond",
+            "aureole",
+            "sacred"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-mandorla.svg"
+        },
+        {
+          "id": "frame-sunwheel-plate",
+          "name": "Sunwheel Plate",
+          "tags": [
+            "sun",
+            "plate",
+            "round"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-sunwheel-plate.svg"
+        },
+        {
+          "id": "frame-rune-ring",
+          "name": "Rune Ring",
+          "tags": [
+            "ring",
+            "runes",
+            "esoteric"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-rune-ring.svg"
+        },
+        {
+          "id": "frame-corner-ornaments",
+          "name": "Corner Ornaments",
+          "tags": [
+            "flourish",
+            "decorative"
+          ],
+          "category": "frames",
+          "path": "assets/svgs/frames/frame-corner-ornaments.svg"
+        }
+      ]
+    },
+    {
+      "id": "textures",
+      "label": "Textures & Backgrounds",
+      "blurb": "Vector washes, rules and procedurally generated ground textures.",
+      "items": [
+        {
+          "id": "tex-parchment-aged",
+          "name": "Aged Parchment",
+          "tags": [
+            "paper",
+            "vellum",
+            "scroll",
+            "texture",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/tex-parchment-aged.svg"
+        },
+        {
+          "id": "tex-parchment-stained",
+          "name": "Stained Parchment",
+          "tags": [
+            "paper",
+            "burnt",
+            "ritual",
+            "texture",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/tex-parchment-stained.svg"
+        },
+        {
+          "id": "tex-stone-cracked",
+          "name": "Cracked Stone",
+          "tags": [
+            "rock",
+            "granite",
+            "ancient",
+            "texture",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/tex-stone-cracked.svg"
+        },
+        {
+          "id": "tex-wood-weathered",
+          "name": "Weathered Wood",
+          "tags": [
+            "plank",
+            "timber",
+            "grain",
+            "texture",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/tex-wood-weathered.svg"
+        },
+        {
+          "id": "tex-slate-dark",
+          "name": "Dark Slate",
+          "tags": [
+            "minimal",
+            "dark",
+            "backdrop",
+            "texture",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/tex-slate-dark.svg"
+        },
+        {
+          "id": "bg-gradient-ember",
+          "name": "Ember Wash",
+          "tags": [
+            "warm",
+            "fire",
+            "forge",
+            "gradient",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/bg-gradient-ember.svg"
+        },
+        {
+          "id": "bg-gradient-night",
+          "name": "Night Wash",
+          "tags": [
+            "dark",
+            "void",
+            "midnight",
+            "gradient",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/bg-gradient-night.svg"
+        },
+        {
+          "id": "bg-gradient-moss",
+          "name": "Moss Wash",
+          "tags": [
+            "green",
+            "nature",
+            "forest",
+            "gradient",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/bg-gradient-moss.svg"
+        },
+        {
+          "id": "bg-gradient-gold",
+          "name": "Gold Leaf",
+          "tags": [
+            "metal",
+            "luxe",
+            "gilding",
+            "gradient",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/bg-gradient-gold.svg"
+        },
+        {
+          "id": "bg-gradient-parchment",
+          "name": "Parchment",
+          "tags": [
+            "paper",
+            "aged",
+            "light",
+            "gradient",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/bg-gradient-parchment.svg"
+        },
+        {
+          "id": "bg-gradient-blood",
+          "name": "Dried Blood",
+          "tags": [
+            "red",
+            "dark",
+            "ritual",
+            "gradient",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/bg-gradient-blood.svg"
+        },
+        {
+          "id": "bg-gradient-twilight",
+          "name": "Twilight",
+          "tags": [
+            "purple",
+            "dusk",
+            "sky",
+            "gradient",
+            "background"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/bg-gradient-twilight.svg"
+        },
+        {
+          "id": "rule-divider",
+          "name": "Divider Rule",
+          "tags": [
+            "line",
+            "rule",
+            "divider"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/rule-divider.svg"
+        },
+        {
+          "id": "rule-diamond",
+          "name": "Diamond Rule",
+          "tags": [
+            "line",
+            "rule",
+            "divider"
+          ],
+          "category": "textures",
+          "path": "assets/svgs/textures/rule-diamond.svg"
+        }
+      ]
+    }
+  ]
+}

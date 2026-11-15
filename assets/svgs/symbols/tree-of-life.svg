@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<title>Pagan Logo Maker asset</title>
+<g fill="none" stroke="#d4af4f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="128" cy="128" r="106"/>
+<path d="M128 37.2 L179.04 64.5"/>
+<path d="M128 37.2 L76.96 64.5"/>
+<path d="M128 37.2 L128 127.5"/>
+<path d="M179.04 64.5 L76.96 64.5"/>
+<path d="M179.04 64.5 L179.04 106.5"/>
+<path d="M179.04 64.5 L76.96 106.5"/>
+<path d="M179.04 64.5 L128 127.5"/>
+<path d="M76.96 64.5 L179.04 106.5"/>
+<path d="M76.96 64.5 L76.96 106.5"/>
+<path d="M76.96 64.5 L128 127.5"/>
+<path d="M179.04 106.5 L76.96 106.5"/>
+<path d="M179.04 106.5 L128 127.5"/>
+<path d="M179.04 106.5 L179.04 163.2"/>
+<path d="M76.96 106.5 L128 127.5"/>
+<path d="M76.96 106.5 L76.96 163.2"/>
+<path d="M128 127.5 L179.04 163.2"/>
+<path d="M128 127.5 L76.96 163.2"/>
+<path d="M128 127.5 L128 184.2"/>
+<path d="M179.04 163.2 L76.96 163.2"/>
+<path d="M179.04 163.2 L128 184.2"/>
+<path d="M179.04 163.2 L128 213.6"/>
+<path d="M76.96 163.2 L128 184.2"/>
+<path d="M76.96 163.2 L128 213.6"/>
+<path d="M128 184.2 L128 213.6"/>
+<circle cx="128" cy="37.2" r="7"/>
+<circle cx="179.04" cy="64.5" r="7"/>
+<circle cx="76.96" cy="64.5" r="7"/>
+<circle cx="179.04" cy="106.5" r="7"/>
+<circle cx="76.96" cy="106.5" r="7"/>
+<circle cx="128" cy="127.5" r="7"/>
+<circle cx="179.04" cy="163.2" r="7"/>
+<circle cx="76.96" cy="163.2" r="7"/>
+<circle cx="128" cy="184.2" r="7"/>
+<circle cx="128" cy="213.6" r="7"/>
+</g>
+</svg>
